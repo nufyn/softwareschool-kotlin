@@ -2,83 +2,68 @@
 
 <b>
 소프트웨어학교 강의 자료
-소프트웨어 고등학교 학생들을 위한 아아아<br/>
+소프트웨어 고등학교 학생들을 위한 코틀린 & 안드로이드수업
 </b>
 
 # 목차
-
 <ol>
+<li>개요
+  <ol type="I">
+  <li>강의계획
+  <li>안드로이드 스튜디오와 코틀린
+  </ol>
+
+<li>안드로이드 스튜디오 설치
+  
+<li>코틀린
+  <ol type="I">
   <li>소개
-    <ul>
-      <li>안드로이드 소개</li>
-      <li>리액트 / 리액트 네이티브 소개</li>
-    </ul>
-  </li>
-  <br/>
-  <li>개발환경 세팅
-    <ul>
-        <li>안드로이드 스튜디오(android), xcode(ios) 설치, 기본 환경 세팅(nodejs)</li>
-        <li>리액트 네이티브환경 세팅, 디바이스 설정</li>
-        <li>모바일 디바이스 실행 테스트</li>
-    </ul>
-  </li>
-    <br/>
-  <li>어플리케이션 초기 실습
-    <ul>
-      <li>간단한 예제 학습 / 개발 / 모바일 디바이스에서 구동</li>
-    </ul>
-  </li>
-    <br/>
-  <li>어플리케이션 구상
-    <ul>
-      <li>레퍼런스 수집</li>
-      <li>UI/UX 구상</li>
-      <li>콤포넌트 분리</li>
-      <li>data flow 설계</li>
-    </ul>
-  </li>
-    <br/>
-  <li>기본 교육
-    <ul>
-      <li>기본 자바스크립트 교육 -> react와 연관있는 것만(데이터타입, 연산자, 제어문, 배열, 함수, 객체, 클래스)</li>
-      <li>react 교육
-        <ul>
-          <li>react(jsx)와 js의 차이 교육</li>
-          <li>react전용 문법 교육</li>
-          <li>리액트 Redux 간단 교육 -> react hooks<br/>
-            <blockquote>
-              "The One With Hook"이라고도 불리는 React버전 16.8의 출시와 함께, 오랫동안 기다려 온 hooks 패턴이 소개되었습니다. 이 패턴을 사용하면 state, lifecycles 및 class를                         사용하지 않고도 다른 모든 대체 기능을 사용할 수 있습니다."
-            </blockquote>
-          </li>
-          <li>components / lib import / props / hooks(state, effect)</li>
-● 리액트 HOC(Higher-Order Component) 교육
-● 리액트 Currying 기법 교육
-● 리액트 Context 기법 교육
-● 리액트 Hooks 기법 교육
-● axios를 활용한 외부 API 연결하기
-        </ul>
-      </li>
-    </ul>
-  </li>
+  <li>Java vs Kotlin
+  </ol>
+
+<li>코틀린 문법
+  <ol type="I">
+  <li>something
   <li>
-    <ul>
-      <li></li>
-    </ul>
-  </li>
+  </ol>
+
+<li>코틀린 문법 심화
+  <ol type="I">
+  <li>something
   <li>
-    <ul>
-      <li></li>
-    </ul>
-  </li>
+  </ol>
+
+<li>코틀린 문법 응용
+  <ol type="I">
+  <li>something
   <li>
-    <ul>
-      <li></li>
-    </ul>
-  </li>
-  <li></li>
-  <li>
-    <ul>
-      <li></li>
-    </ul>
-  </li>
+  </ol>
+
+
+
+<li>안드로이드 스튜디오
+  <ol type="I">
+  <li>코틀린 적용 및 작성
+  <li>View
+  <li>Layout
+  <li>Handler
+  <li>Adapter
+  <li>Thread
+  <li>Intent
+  <li>Service
+  <li>Preference
+  <li>Widget
+  <li>DataBase
+  <li>Content Resolve
+  <li>Rest API
+  </ol>
+
+<li>Software Engineering
+  <ol type="I">
+  <li>요구사항 명세서(SRS, Software Requirements)
+  <li>화면 흐름도(Screen Flow Chart)
+  <li>화면 설계서(WireFrame)
+  <li>기능 명세서(Functional Specification / Description)
+  </ol>
+<li>프로젝트 작성
 </ol>
