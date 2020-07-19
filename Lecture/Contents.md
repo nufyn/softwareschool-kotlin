@@ -1,31 +1,25 @@
-# #. 강의 계획
+# 강의 목차
 
 ## 1. 안드로이드 스튜디오와 코틀린
 
-## 2. [안드로이드 스튜디오 설치](Lecture/L7/c1.md)
+## 2. [안드로이드 스튜디오 설치](Lecture/L2/c1.md)
 
-## 3. [코틀린](Lecture/L3.md)
-  1. 소개
-  2. Java vs Kotlin
+## 3. [코틀린](Lecture/L3/c1.md)
 
-## 4. [코틀린 문법](Lecture/L4.md)
+## 4. [코틀린 심화](Lecture/L4/c1.md)
 
-## 5. [코틀린 문법 심화](Lecture/L5.md)
+## 5. 안드로이드 스튜디오
+1. [안드로이드 스튜디오 시작하기](Lecture/L5/c1.md)
+2. [View](Lecture/L5/c2.md)
+3. [Adapter](Lecture/L5/c3.md)
+4. [Intent](Lecture/L5/c4.md)
+5. [DataBase](Lecture/L5/c5.md)
+6. [Service](Lecture/L5/c6.md)
+7. [Content Provider](Lecture/L5/c7.md)
+8. [Rest API](Lecture/L5/c8.md)
+9. [Thread와 Handler](Lecture/L5/c9.md)
 
-## 7. [Android Studio](Lecture/L7.md)
-1. 안드로이드 스튜디오 시작하기
-2. View
-3. Adapter
-4. Intent
-5. DataBase
-6. Service
-7. Content Provider
-8. Rest API
-9. Thread와 Handler
+## 6. [프로젝트 작성](Lecture/L6/c1.md)
 
-## 8. [프로젝트 작성](Lecture/L8.md)
-
-  - PlayStore 출시 루트, 라이선스 및 절차
-  
-## 9. [안드로이드 플레이 스토어 출시](Lecture/L9.md)
+## 7. [안드로이드 PlayStore 출시 루트, 라이선스 및 절차](Lecture/L7/c1.md)
 
