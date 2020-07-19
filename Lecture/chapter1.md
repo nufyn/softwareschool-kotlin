@@ -7,7 +7,7 @@
 
  ## 2. [안드로이드 스튜디오 설치](Lecture/L2.md)
   
- ## 3. [코틀린]{Lecture/L3.md)
+ ## 3. [코틀린](Lecture/L3.md)
  
    1.소개
    2.Java vs Kotlin
