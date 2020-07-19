@@ -9,8 +9,8 @@
   
  ## 3. [코틀린](Lecture/L3.md)
  
-   1.소개
-   2.Java vs Kotlin
+   1. 소개
+   2. Java vs Kotlin
   
 
  ## 4. [코틀린 문법](Lecture/L3.md)
