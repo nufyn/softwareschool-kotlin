@@ -31,11 +31,8 @@
    
   
 
-
-
-## 안드로이드 스튜디오
  
-  ## [안드로이드 스튜디오 시작하기](Lecture/L6.md)
+  ## 7. [안드로이드 스튜디오 시작하기](Lecture/L6.md)
   - View
   - Adapter
   - Thread
