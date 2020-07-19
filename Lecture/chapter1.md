@@ -1,60 +1,59 @@
 # #. 강의 계획
-<ol>
-<li>개요
-  <ol type="I">
-  <li>강의계획
-  <li>안드로이드 스튜디오와 코틀린
-  </ol>
 
-<li>안드로이드 스튜디오 설치
+ ## 1. [개요](L)
+  1. 강의계획
+  2. 안드로이드 스튜디오와 코틀린
+ 
+
+ 안드로이드 스튜디오 설치
   
-<li>코틀린
-  <ol type="I">
-  <li>소개
-  <li>Java vs Kotlin
-  </ol>
+ 코틀린
+ 
+   소개
+   Java vs Kotlin
+  
 
-<li>코틀린 문법
-  <ol type="I">
-  <li>something
-  <li>
-  </ol>
+ 코틀린 문법
+ 
+   something
+   
+  
 
-<li>코틀린 문법 심화
-  <ol type="I">
-  <li>something
-  <li>
-  </ol>
+ 코틀린 문법 심화
+ 
+   something
+   
+  
 
-<li>코틀린 문법 응용
-  <ol type="I">
-  <li>something
-  <li>
-  </ol>
+ 코틀린 문법 응용
+ 
+   something
+   
+  
 
 
 
-<li>안드로이드 스튜디오
-  <ol type="I">
-  <li>안드로이드 스튜디오 시작하기
-  <li>View
-  <li>Adapter
-  <li>Thread
-  <li>Intent
-  <li>Service
-  <li>DataBase
-  <li>Content Resolve
-  <li>Rest API
-  </ol>
+ 안드로이드 스튜디오
+ 
+   안드로이드 스튜디오 시작하기
+   View
+   Adapter
+   Thread
+   Intent
+   Service
+   DataBase
+   Content Resolve
+   Rest API
+  
 
-<li>Software Engineering
-  <ol type="I">
-  <li>요구사항 명세서(SRS, Software Requirements)
-  <li>화면 흐름도(Screen Flow Chart)
-  <li>화면 설계서(WireFrame)
-  <li>기능 명세서(Functional Specification / Description)
-  </ol>
-<li>프로젝트 작성
-  <ol type="I">
-  <li>PlayStore 출시 루트, 라이선스 및 절차
-  </ol>
+ Software Engineering
+ 
+   요구사항 명세서(SRS, Software Requirements)
+   화면 흐름도(Screen Flow Chart)
+   화면 설계서(WireFrame)
+   기능 명세서(Functional Specification / Description)
+  
+ 프로젝트 작성
+ 
+   PlayStore 출시 루트, 라이선스 및 절차
+  
