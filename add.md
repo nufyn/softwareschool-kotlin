@@ -523,3 +523,135 @@ override fun onCreate(savedInstanceState: Bundle?) {
         }
     }
 ```
+
+
+# Preference
+- 정보를 DataBase에 저장하지는 않지만 앱 내부에 저장을 하여 사용한다.(응용분야 : 자동로그인 등)
+
+
+- User 클래스 한개 생성
+- User.kt
+```kotlin
+import android.app.Application
+
+class User : Application(){
+    companion object {
+        var ID: String = ""
+        var PW: String = ""
+    }
+}
+```
+
+- MainActivity.kt
+```kotlin
+override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        var userId = "test"
+        var userPw = "test"
+
+        var pref =this.getSharedPreferences("User", Context.MODE_PRIVATE)
+        User.ID = pref.getString("ID", "")!!
+        User.PW = pref.getString("PW", "")!!
+
+        text_id.text = User.ID
+        text_pw.text = User.PW
+
+
+        btn_login.setOnClickListener {
+            if(userId == edit_id.text.toString() && userPw == edit_pw.text.toString()) {
+                var editor = pref.edit()
+                editor.putString("ID", edit_id.text.toString())
+                    .putString("PW", edit_pw.text.toString())
+                    .apply()
+                Toast.makeText(this, "로그인에 성공 했습니다.", Toast.LENGTH_SHORT).show()
+            }
+            else {
+                Toast.makeText(this, "로그인에 실패했습니다.", Toast.LENGTH_SHORT).show()
+            }
+
+        }
+    }
+```
+- activity_main.xml
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="비밀번호"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_id" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="로그인"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_pw" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="저장된정보"
+        android:textColor="#212121"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="아이디"
+        android:textSize="20dp"
+        android:textColor="#212121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="비밀번호"
+        android:textSize="20dp"
+        android:textColor="#212121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_id" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
